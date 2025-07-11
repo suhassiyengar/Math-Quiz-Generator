@@ -1,7 +1,8 @@
 import random
 import time
 
-TOTAL_QUESTIONS=1
+TOTAL_QUESTIONS=10
+
 
 def question_():
     OPERATORS=["+","-","*"]
@@ -23,14 +24,18 @@ def user_interface():
             guess=input("question number#"+str(i+1)+" "+exp+"=")
             if guess==str(answer):
                 break
+            else:
+                print("Your Answer is wrong TRY AGAIN! TIME'S RUNNING")
             wrong+=1
     return wrong
-        
+
+START=input("PRESS ENTER TO START THE GAME:")
+
 start_time=time.time()
 wrong=user_interface()
 end_time=time.time()
 total_time=round(end_time-start_time,2)
-print("HURRAY! You Finished The Quiz With ",wrong,"errors in ",total_time)
+print("HURRAY! You Finished The Quiz With ",wrong,"errors in ",total_time,"SECONDS")
 
 
 
