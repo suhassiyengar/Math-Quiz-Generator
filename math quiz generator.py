@@ -28,14 +28,14 @@ def user_interface():
                 print("Your Answer is wrong TRY AGAIN! TIME'S RUNNING")
             wrong+=1
     return wrong
-
+name=input("ENTYER UR NAME: ")
 START=input("PRESS ENTER TO START THE GAME:")
 
 start_time=time.time()
 wrong=user_interface()
 end_time=time.time()
 total_time=round(end_time-start_time,2)
-print("HURRAY! You Finished The Quiz With ",wrong,"errors in ",total_time,"SECONDS")
+print("HURRAY!",name,"You Finished The Quiz With ",wrong,"errors in ",total_time,"SECONDS")
 
 
 
