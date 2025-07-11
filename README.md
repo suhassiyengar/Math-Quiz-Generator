@@ -11,6 +11,7 @@ A command-line based math quiz game built using Python.
 - Personalized with user's name
 
 ## 📸 Demo
+![Quiz Screenshot](./quiz.png)
 
 
 How It Works:
