@@ -16,7 +16,7 @@ A Python-based interactive command-line game that tests your basic math skills u
 ---
 
 ## 📸 Screenshot
-
+![Math Quiz Demo](./mathquiz.png)
 
 
 ---
